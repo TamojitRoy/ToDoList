@@ -1,0 +1,48 @@
+.abc{
+    padding-top: 15px;
+    text-align: center;
+    text-shadow: blueviolet;
+    color:rgb(212, 0, 255);
+
+}
+.ef{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    
+}
+
+input[type=text] {
+    border: 2px solid orangered;
+    border-radius: 4px;
+}
+input[type=password]{
+    border: 2px solid orange;
+    border-radius: 4px;
+}
+.log {
+    background-color: hotpink;
+    margin-right: 10px;
+}
+.reset{
+    background-color:green;
+    margin-left: 10px;
+}
+::placeholder{
+    color: lightgray;
+    opacity: 0.5px;
+}
+.cont{
+    background-color: lime;
+}
+.gh{
+    padding-top: 30px;
+}
+.success{
+    text-align:center ;
+    background-color: lightgreen;
+}
+.fail{
+    text-align:center ;
+    background-color: red;
+}

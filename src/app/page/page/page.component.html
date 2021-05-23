@@ -1,0 +1,28 @@
+
+
+<h1 class="abc">TO DO LIST</h1>
+<div class="ef">
+    <input type="text" class="username "[(ngModel)]="username" placeholder="Enter your username">
+</div>
+<div class="ef">
+    <input type="password" class="pass"[(ngModel)]="password" placeholder="Enter password">
+</div>
+<div class="ef">
+    <button class="log"(click)="submit()" >Login</button>
+    <button class="reset" (click)="setNew()">Reset</button>
+</div>
+<div *ngIf="currentUser"class="success" >Successfully Logged In</div>
+<div *ngIf="failUser" class="fail">Login failed</div>
+<footer class="ef gh">
+    <div *ngIf = "button">
+        <button class="cont"(click)="cont()">Continue</button>
+        <div *ngIf="access">
+            <p  class="fail">Authentication fail</p>
+        </div>
+        <div *ngIf="authen">
+            <a [routerLink]="'/'"></a>
+        </div>
+    </div>
+    
+   
+</footer>

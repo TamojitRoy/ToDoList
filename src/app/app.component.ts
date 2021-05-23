@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {LoginService} from './shared/login.service'
 
 @Component({
   selector: 'app-root',
@@ -8,12 +9,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'todo';
   name ="Tamojit Roy";
-  num=1;
-  red(){
-    this.num-=1;
-    if(this.num<1){
-      this.num=1;
-    }
-  }
+  
+ 
+
+ 
+  
+  
+  
 
 }

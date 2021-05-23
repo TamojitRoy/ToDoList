@@ -1,0 +1,21 @@
+<h1 class="ab">TO DO LIST</h1>
+<div class="logout">
+    <a [routerLink]="'/page'"><button class="pg">LogOut</button></a>
+</div>
+<div class="cde">
+    <input type="text" class="list" [(ngModel)]="todo" placeholder="Enter items To Do">
+    <span class="fg"><button class="plus" (click)="add()">+</button></span>
+</div>
+<div class="b">
+    <p class="hi">List items are :</p>
+    <div *ngFor="let item of items; index as i;">
+        <div class="c">
+            <div class="d">
+                <h3 class="z">{{items}}</h3>
+            </div>
+            <button class="remove" (click)='remove(i)'> - </button>	
+        </div>
+    </div>
+</div>
+
+
